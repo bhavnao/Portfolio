@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg  navbar-custom">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 title">Bhavna Jain</span>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-end  ">
+                        <li class="nav-item">
+                            <a class="nav-link header-style" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-style" href="#my-projects">My Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-style" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-style" href="#contact-me">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="card shadow card-custom">
+                <div class="card-body">
+                    <h4 class="card-title" id="about-me">About Me</h4>
+
+                    <hr class="line">
+                    <div class="row">
+
+
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <img src="./assets/images/IMG_1914.jpg" alt="My Photo"
+                                class="img-thumbnail rounded float-left img-fluid d-flex">
+                        </div>
+
+                        <div class="col-sm-8 col-md-8 col-md-8">
+                            <div class="card-text">
+                                <p>Hi I am Bhavna Jain and I am currently studying GA Tech Coding Bootcamp to become a
+                                    passionate
+                                    full stack developer.I have done Bachelors in Computers Science major and Maths in
+                                    minor.
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!--projects-->
+    <section>
+        <div class="row">
+
+            <div class="col-md-2 col-lg-2"></div>
+
+
+            <div class="col-sm-12 col-md-8 col-lg-8">
+
+
+                <div class="card project-card">
+
+                    <div class="card-body">
+                        <div class="row">
+                            <h4 class="card-title" id="my-projects">My Projects</h4>
+                        </div>
+                        <hr class="line">
+
+                        <div class="row">
+
+                            <!-- row 1 column 1 -->
+                            <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
+                                <!-- trigger modal -->
+                                <div class="card shadow projects" data-toggle="modal" data-target="#worth-the-watch">
+                                    <img src="./assets/images/matrix-g29e6033e8_1280.jpg" alt="Matrix"
+                                        class="img-thumbnail rounded float-left img-fluid d-flex">
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title" style="margin-bottom: 0px;">Worth The Watch</h4>
+                                    </div>
+                                </div>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="worth-the-watch" tabindex="-1"
+                                    aria-labelledby="worth-the-watch" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title card-title" id="worth-the-watch">
+                                                    Worth The Watch </h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+
+
+                                                <p>In the mood to browse around a little, use our website to narrow
+                                                    your search.
+                                                    A movie search website to search movies to get detailed information
+                                                    using imdb API and youtube API.
+                                                    Implemented HTML,advanced CSS, Javascript and Jquery to create this
+                                                    project.
+
+                                                </p>
+                                                <p>Deployed application:
+                                                    <a href="https://kernbryson.github.io/WorthTheWatch">Worth The
+                                                        watch</a></p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--2nd project-->
+                            <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
+                                <!-- trigger modal -->
+                                <div class="card shadow projects" data-toggle="modal" data-target="#quiz-app">
+                                    <img src="./assets/images/cinema-4d-g4ae28f28f_1280.jpg" alt="Rubik Cube"
+                                        class="img-thumbnail rounded float-left img-fluid d-flex">
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title" style="margin-bottom: 0px;">Quiz App</h4>
+                                    </div>
+                                </div>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="quiz-app" tabindex="-1" aria-labelledby="googlebooksLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title card-title" id="quiz-app">
+                                                    Quiz App</h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+
+                                                <p> How much you know about the world, lets play a quiz.
+                                                    This is a geography quiz app for a user to measure their
+                                                    knowledge.<br>
+                                                    Created with Javascript and Jquery to create dynamic questions,
+                                                    timer, high scoresetc.
+
+                                                </p>
+                                                <p>Deployed application:
+                                                    <a href="https://bhavnao.github.io/HW-4-Code-Quiz/">Code Quiz</a>
+                                                </p>
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <!-- row 2 column 1 3rd project -->
+                            <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
+                                <!-- trigger modal -->
+                                <div class="card shadow projects" data-toggle="modal" data-target="#weather-dashboard">
+                                    <img src="./assets/images/technology-gf856bb6cb_1280.jpg" alt="technology"
+                                        class="img-thumbnail rounded float-left img-fluid d-flex">
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title" style="margin-bottom: 0px;">Weather Dashboard</h4>
+                                    </div>
+                                </div>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="weather-dashboard" tabindex="-1"
+                                    aria-labelledby="weather-dashboard" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title card-title" id="weather-dashboard">
+                                                    Weather Dashboard </h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+
+
+                                                <p>Want to check the weather of the city you are travelling, here is
+                                                    the
+                                                    perfect app for you. We can search weather of any city around
+                                                    the world
+                                                    with the 5 day forecast using oenweathermapAPI.
+
+                                                </p>
+                                                <p>Deployed application:
+                                                    <a href="https://bhavnao.github.io/Weather-Dashboard">Weather
+                                                        dashboard</a></p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--4th project-->
+                            <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
+                                <!-- trigger modal -->
+                                <div class="card shadow projects" data-toggle="modal" data-target="#quiz-app">
+                                    <img src="./assets/images/chess-g8c69f8676_1280.jpg" alt="Chess"
+                                        class="img-thumbnail rounded float-left img-fluid d-flex">
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title" style="margin-bottom: 0px;">NodeJS</h4>
+                                    </div>
+                                </div>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="quiz-app" tabindex="-1" aria-labelledby="googlebooksLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title card-title" id="node">
+                                                    NodeJS</h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+
+                                                <p> Coming Soon
+
+                                                </p>
+                                                <p>Deployed application:
+                                                    <a href="#">Node
+                                                    </a>
+                                                </p>
+
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <footer>
+        <div class="foot-style">
+            <h2 id="contact-me">Contact Me</h2>
+            <p>Email: bhavnaostwal@gmail.com</p>
+            <p>Phone: 404-789-7022</p>
+        </div>
+        <div class="align-content-end">
+            <a href="https://github.com/bhavnao" class="btn tooltip-test icon" title="Github" target="_blank"
+                style="font-size:30px;color:white;margin-right:10px;"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/bhavnajain/" class="btn tooltip-test icon" title="linkedin"
+                target="_blank" style="font-size:30px;color:white;margin-right:10px"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto: bhavnaostwal@gmail.com" class="btn tooltip-test icon" title="Email" target="_blank"
+                style="font-size:30px;color:white;margin-right:10px"><i class="fas fa-envelope"></i></a>
+            <a href="assets/BhavnaJainResume.pdf" class="btn tooltip-test icon" title="Resume" target="_blank"
+                style="font-size:30px;color:white;"><i class="fas fa-file-pdf"></i></a>
+        </div>
+
+        <!-- End footer -->
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+
+
+</body>
+
+</html>
