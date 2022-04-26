@@ -15,39 +15,39 @@
 
 <body>
 
+<!-- Navigation bar -->
+    <header>    
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger ">           
+            <span class="navbar-brand mb-0 title text-white">Bhavna Jain</span>
 
-    <header>
-        <nav class="navbar navbar-expand-lg  navbar-custom">
-            <div class="container-fluid">
-                <span class="navbar-brand mb-0 title">Bhavna Jain</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav justify-content-end  ">
-                        <li class="nav-item">
-                            <a class="nav-link header-style" href="#about-me">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header-style" href="#my-projects">My Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header-style" href="#resume">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header-style" href="#contact-me">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link header-style text-white" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-style text-white" href="#my-projects">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-style text-white" href="./assets/documents/Resume.docx">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-style text-white" href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
             </div>
+           
         </nav>
     </header>
 
     <main>
-        <div class="container">
+        <!-- about me section -->
+        <div class="container col-8">
 
             <div class="card shadow card-custom">
                 <div class="card-body">
@@ -64,10 +64,16 @@
 
                         <div class="col-sm-8 col-md-8 col-md-8">
                             <div class="card-text">
-                                <p>Hi I am Bhavna Jain and I am currently studying GA Tech Coding Bootcamp to become a
-                                    passionate
-                                    full stack developer.I have done Bachelors in Computers Science major and Maths in
-                                    minor.
+                                <p>My name is Bhavna Jain. I am currently a Georgia Tech Coding Bootcamp student and looking forward to start my career as a full stack developer.
+                                    <br>
+                                    <br>
+                                    I have a solid understanding of computer science fundamentals including object oriented programming and database management.
+                                    <br>
+                                    <br>
+                                    I like to put my logical and creative skills in combination with the passion for coding. I am naturally curious, there is always something new to learn and grow in the software industry.
+                                    <br>
+                                    <br>
+                                    In my spare time, I love to read, solve puzzles/multidimensional cubes, cook, and listen to the music.
 
 
                                 </p>
@@ -92,16 +98,17 @@
 
                     <div class="card-body">
                         <div class="row">
-                            <h4 class="card-title" id="my-projects">My Projects</h4>
+                            <h4 class="card-title text-style" id="my-projects">My Projects</h4>
                         </div>
                         <hr class="line">
 
                         <div class="row">
 
-                            <!-- row 1 column 1 -->
+                            <!-- row 1 column 1 1st project -->
                             <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
                                 <!-- trigger modal -->
-                                <div class="card shadow projects" data-toggle="modal" data-target="#worth-the-watch">
+                                <div class="card shadow projects hover" data-toggle="modal"
+                                    data-target="#worth-the-watch">
                                     <img src="./assets/images/matrix-g29e6033e8_1280.jpg" alt="Matrix"
                                         class="img-thumbnail rounded float-left img-fluid d-flex">
                                     <div class="card-body text-center">
@@ -128,8 +135,8 @@
                                                 <p>In the mood to browse around a little, use our website to narrow
                                                     your search.
                                                     A movie search website to search movies to get detailed information
-                                                    using imdb API and youtube API.
-                                                    Implemented HTML,advanced CSS, Javascript and Jquery to create this
+                                                    using the imdb API and the youtube API.
+                                                    Implemented HTML, Advanced CSS, JavaScript and jQuery to create this
                                                     project.
 
                                                 </p>
@@ -147,7 +154,7 @@
                             <!--2nd project-->
                             <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
                                 <!-- trigger modal -->
-                                <div class="card shadow projects" data-toggle="modal" data-target="#quiz-app">
+                                <div class="card shadow projects hover" data-toggle="modal" data-target="#quiz-app">
                                     <img src="./assets/images/cinema-4d-g4ae28f28f_1280.jpg" alt="Rubik Cube"
                                         class="img-thumbnail rounded float-left img-fluid d-flex">
                                     <div class="card-body text-center">
@@ -178,7 +185,7 @@
 
                                                 </p>
                                                 <p>Deployed application:
-                                                    <a href="https://bhavnao.github.io/HW-4-Code-Quiz/">Code Quiz</a>
+                                                    <a href="https://bhavnao.github.io/Code-Quiz/">Code Quiz</a>
                                                 </p>
 
 
@@ -196,7 +203,8 @@
                             <!-- row 2 column 1 3rd project -->
                             <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
                                 <!-- trigger modal -->
-                                <div class="card shadow projects" data-toggle="modal" data-target="#weather-dashboard">
+                                <div class="card shadow projects hover" data-toggle="modal"
+                                    data-target="#weather-dashboard">
                                     <img src="./assets/images/technology-gf856bb6cb_1280.jpg" alt="technology"
                                         class="img-thumbnail rounded float-left img-fluid d-flex">
                                     <div class="card-body text-center">
@@ -241,7 +249,7 @@
                             <!--4th project-->
                             <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
                                 <!-- trigger modal -->
-                                <div class="card shadow projects" data-toggle="modal" data-target="#quiz-app">
+                                <div class="card shadow projects hover" data-toggle="modal" data-target="#node-js">
                                     <img src="./assets/images/chess-g8c69f8676_1280.jpg" alt="Chess"
                                         class="img-thumbnail rounded float-left img-fluid d-flex">
                                     <div class="card-body text-center">
@@ -250,7 +258,7 @@
                                 </div>
 
                                 <!-- Modal -->
-                                <div class="modal fade" id="quiz-app" tabindex="-1" aria-labelledby="googlebooksLabel"
+                                <div class="modal fade" id="node-js" tabindex="-1" aria-labelledby="node-js"
                                     aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
@@ -292,27 +300,28 @@
                 </div>
             </div>
         </div>
-        
+
 
     </section>
 
     <footer>
-        <div class="foot-style">
+        <div class="foot-style">   
+        <section class="centered">
             <h2 id="contact-me">Contact Me</h2>
             <p>Email: bhavnaostwal@gmail.com</p>
             <p>Phone: 404-789-7022</p>
-        </div>
-        <div class="align-content-end">
+        </section>
+        <section class="centered">
             <a href="https://github.com/bhavnao" class="btn tooltip-test icon" title="Github" target="_blank"
                 style="font-size:30px;color:white;margin-right:10px;"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/bhavnajain/" class="btn tooltip-test icon" title="linkedin"
                 target="_blank" style="font-size:30px;color:white;margin-right:10px"><i class="fab fa-linkedin"></i></a>
             <a href="mailto: bhavnaostwal@gmail.com" class="btn tooltip-test icon" title="Email" target="_blank"
                 style="font-size:30px;color:white;margin-right:10px"><i class="fas fa-envelope"></i></a>
-            <a href="assets/BhavnaJainResume.pdf" class="btn tooltip-test icon" title="Resume" target="_blank"
+            <a href="./assets/documents/Resume.docx" class="btn tooltip-test icon" title="Resume" target="_blank"
                 style="font-size:30px;color:white;"><i class="fas fa-file-pdf"></i></a>
-        </div>
-
+        </section>
+    </div>
         <!-- End footer -->
     </footer>
 

@@ -1,20 +1,33 @@
 body{
-    background-color: rgb(237, 188, 188);
+    background-color: rgb(149, 238, 189);
 }
 
-.navbar-custom{
+/* .navbar-custom{
     background-color:#c22424;
     color:white;
     height: 100px;
-}
+} */
 
 .navbar .navbar-collapse {
     
     text-align: right;
 }
 
+/* .stylenav{
+    justify-content :right;
+    align-items: flex-end;
+    font-weight: 500;
+
+} */
+
+.hover:hover{
+    cursor:pointer;
+}
+
+
 .header-style{
     color:white;
+
 }
 
 .title{
@@ -22,8 +35,16 @@ body{
     font-weight: bold;
 }
 
+.text-style{
+    color:white;
+}
+
 .foot-style{
     margin-left: 20px;
+}
+
+.centered{
+    text-align: center;
 }
     
 
@@ -58,6 +79,6 @@ footer{
     height: 200px;
 }
 
-footer .sign{
-    text-align: end;
+.icons{
+    float:right;
 }
